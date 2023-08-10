@@ -1,0 +1,134 @@
+
+
+/* PC: >= 1024px
+    Tablet: >=740px & <1024px
+    Mobile: <740px
+
+*/
+
+
+
+/* PC */
+@media(min-width: 64em) 
+/* 1024px, chuyển từ px sang em để kích thước đúng với mọi giao diện*/
+{
+
+}
+
+
+
+/*Tablet */
+@media(min-width:  46.25em) and (max-width: 63.9375em){
+
+}
+
+/* Tablet and Mobile */
+@media(max-width: 63.9375em){
+    .btn{
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control{
+        padding: 15px;
+    }
+
+    .contact-info{
+        line-height: 2;
+    }
+    #footer .socials-list{
+        font-size: 48px;
+    }
+     
+    #footer .socials-list a{
+        margin: 0 8px;
+    }
+
+    #footer .copyright a{
+        padding: 12px 0;
+        display: inline-block
+    }
+
+    #nav .subnav a{
+        padding: 5px 12px;
+    }
+     
+    
+}
+
+
+/* Mobile */
+@media(max-width: 46.1875em){
+
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+    
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    
+    
+    #header .search-btn{
+        display: none;
+    }
+
+    #tour{
+        background-color: #000;
+        height: 1930px;
+    }
+
+    #nav{
+        display: block;
+    }
+    #nav>li {
+        display: block;
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+    }
+
+    #nav>li:first-child{
+        display: inline-block;
+        /* Dùng b25: pseudo class, ưu tiên li đầu tiên */
+    }
+
+    #nav .subnav{
+        position: initial;
+        /* giá trị mặc định, reset absolute */
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+       
+    
+    }
+
+    #nav .subnav li a{
+        color: #fff;
+        padding: 1px 41px;
+    }
+
+
+    #content .member-img{
+        width: 60%;
+    }
+
+    .contact-form{
+        margin-top: 32px;
+        
+    }
+
+    
+}
